@@ -113,5 +113,5 @@ The ZED demo `zed_demo.py` is based on the ARkit demo example provided in the Ne
 
 To run the example, copy the NeuralRecon folder on to the NeuralRecon repository. Ensure the PATH variable in the config file is pointing to where you want the data to be saved. Then,
 ```
-python zed_demo.py --cfg ./config/mine.yaml
+python zed_demo.py --cfg ./config/zed_demo.yaml
 ```

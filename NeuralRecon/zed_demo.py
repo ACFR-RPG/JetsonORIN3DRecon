@@ -363,6 +363,7 @@ class NeuralReconThread(threading.Thread):
             Max GPU memory usage (GB): {max(gpu_mem_usage) / (1024 ** 3)} 
         """
         print(summary_text)
+        print(gpu_mem_usage)
 
         if cfg.SAVE_SCENE_MESH:
             assert 'scene_tsdf' in outputs, \

@@ -10,9 +10,9 @@ MODE: 'test'
 
 TEST:
   # Change your own data path here
-  PATH: '/home/daniel/Downloads/2nd'
+  PATH: '/path/to/your/data/folder'
   N_VIEWS: 9
-  N_WORKERS: 1
+  N_WORKERS: 0
 
 MODEL:
   N_LAYER: 3
